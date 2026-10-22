@@ -1,0 +1,29 @@
+{
+  "name": "baloise-design-system-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@baloise/ds-brand-icons": "^19.11.0",
+    "@baloise/ds-icons": "^19",
+    "@baloise/ds-react": "^19",
+    "@baloise/ds-styles": "^19",
+    "react": "^19",
+    "react-dom": "^19",
+    "react-router": "^8"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^6",
+    "typescript": "~5.9",
+    "vite": "^8"
+  }
+}
